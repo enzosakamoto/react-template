@@ -1,24 +1,20 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import { Button } from '../components/Button'
+import { Navbar } from '../components/Navbar'
+
+import Api from './api_usage/page'
+import Home from './home/page'
 
 export default function App() {
-  const [count, setCount] = useState<number>(0)
   return (
     <>
-      <main className="flex h-screen w-full flex-col gap-14 items-center justify-center bg-gradient-to-b from-white to-pink-200">
-        <h1 className="text-7xl font-semibold">TEMPLATE REACT</h1>
-        <span className="text-4xl font-medium">{count}</span>
-        <div className="flex flex-row gap-8">
-          <Button color="primary" onClick={() => setCount(count + 1)}>
-            Add
-          </Button>
-          <Button color="secondary" onClick={() => setCount(count - 1)}>
-            Minus
-          </Button>
-          <Button onClick={() => setCount(0)}>Reset</Button>
-        </div>
-      </main>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/api" element={<Api />} />
+        </Routes>
+      </Router>
     </>
   )
 }
