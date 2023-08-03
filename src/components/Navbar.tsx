@@ -1,4 +1,4 @@
-export function Navbar() {
+export default function Navbar() {
   type Path = {
     name: string
     path: string
