@@ -37,12 +37,12 @@ Template for basic ReactJS applications intended for SPA with TypeScript. Builde
 │   └── api
 │       └── cep.ts
 │
-└── tests
+└── __tests__
     ├── pages
     │   └── home
     ├── components
-    │   ├── Navbar.test.ts
-    │   └── Button.test.ts
+    │   ├── Navbar.test.tsx
+    │   └── Button.test.tsx
     └── api
 ```
 
