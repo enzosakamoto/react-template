@@ -1,27 +1,74 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Basic ReactJS Template ⚛️
 
-Currently, two official plugins are available:
+Template for basic ReactJS applications intended for SPA. Builded with [Vite](https://vitejs.dev).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Useful Packages
 
-## Expanding the ESLint configuration
+**Styles**
+* [Tailwind CSS](https://tailwindcss.com)
+* [Tailwind Variants](https://www.tailwind-variants.org)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Linting and Formatter**
+* [Eslint](https://eslint.org)
+    * [Eslint for Prettier](https://github.com/prettier/eslint-config-prettier)
+    * [Eslint for React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+    * [Eslint for Import Helpers](https://github.com/Tibfib/eslint-plugin-import-helpers/tree/master)
+* [Prettier](https://prettier.io)
+    * [Prettier for Tailwind CSS](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
-- Configure the top-level `parserOptions` property like this:
+**Routes**
+* [React Router DOM](https://github.com/remix-run/react-router)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+**API Usage**
+* [Axios](https://axios-http.com/ptbr/docs/intro)
+
+## Folder Structure
+
+```
+.
+│
+├── src
+│   ├── pages
+│   │   └── home
+│   ├── components
+│   │   ├── Navbar.tsx
+│   │   └── Button.tsx
+│   └── api
+│       └── cep.ts
+│
+└── tests
+    ├── pages
+    │   └── home
+    ├── components
+    │   ├── Navbar.test.ts
+    │   └── Button.test.ts
+    └── api
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Names
+
+* **Variables**
+    * camelCase (ex. regexEmail, userId)
+
+* **Methods**
+    * camelCase (ex. getItemById, getAllItemsByUser)
+
+* **Folders and Directories**
+    * snake_case (ex. create_user)
+
+* **Components**
+    * First letter capitalized (ex. Navbar.tsx, Button.tsx)
+
+* **Tests**
+    * Sufix **```.test.ts```** (ex. button.test.ts)
+
+## Author
+* [Enzo Sakamoto](https://github.com/enzosakamoto)
+
+## Special Thanks
+* [Dev. Community Mauá](https://github.com/Maua-Dev/)
+
+
+
+
