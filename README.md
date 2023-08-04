@@ -9,7 +9,7 @@ Template for basic ReactJS applications intended for SPA with TypeScript. Builde
 * [Tailwind CSS](https://tailwindcss.com)
 * [Tailwind Variants](https://www.tailwind-variants.org)
 
-**Linting and Formatter**
+**Lint and Formatter**
 * [Eslint](https://eslint.org)
     * [Eslint for Prettier](https://github.com/prettier/eslint-config-prettier)
     * [Eslint for React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
@@ -22,6 +22,9 @@ Template for basic ReactJS applications intended for SPA with TypeScript. Builde
 
 **API Usage**
 * [Axios](https://axios-http.com/ptbr/docs/intro)
+
+**Unit Tests**
+* [Jest](https://jestjs.io/pt-BR/)
 
 ## Folder Structure
 
@@ -38,8 +41,6 @@ Template for basic ReactJS applications intended for SPA with TypeScript. Builde
 │       └── cep.ts
 │
 └── __tests__
-    ├── pages
-    │   └── home
     ├── components
     │   ├── Navbar.test.tsx
     │   └── Button.test.tsx
