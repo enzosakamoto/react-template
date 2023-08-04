@@ -1,30 +1,43 @@
-
 # Basic ReactJS Template ⚛️
 
 Template for basic ReactJS applications with TypeScript. Builded with [Vite](https://vitejs.dev).
 
-## Useful Packages
+## Table of contents
+- [Installed Packages](#installed-packages)
+- [Folder Structure](#folder-structure)
+- [Names](#names)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Author](#author)
+- [Special Thanks](#special-thanks)
+
+## Installed Packages
 
 **Styles**
-* [Tailwind CSS](https://tailwindcss.com)
-* [Tailwind Variants](https://www.tailwind-variants.org)
+
+- [Tailwind CSS](https://tailwindcss.com)
+- [Tailwind Variants](https://www.tailwind-variants.org)
 
 **Lint and Formatter**
-* [Eslint](https://eslint.org)
-    * [Eslint for Prettier](https://github.com/prettier/eslint-config-prettier)
-    * [Eslint for React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
-    * [Eslint for Import Helpers](https://github.com/Tibfib/eslint-plugin-import-helpers/tree/master)
-* [Prettier](https://prettier.io)
-    * [Prettier for Tailwind CSS](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
+- [Eslint](https://eslint.org)
+  - [Eslint for Prettier](https://github.com/prettier/eslint-config-prettier)
+  - [Eslint for React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+  - [Eslint for Import Helpers](https://github.com/Tibfib/eslint-plugin-import-helpers/tree/master)
+- [Prettier](https://prettier.io)
+  - [Prettier for Tailwind CSS](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 **Routes**
-* [React Router DOM](https://github.com/remix-run/react-router)
+
+- [React Router DOM](https://github.com/remix-run/react-router)
 
 **API Usage**
-* [Axios](https://axios-http.com/ptbr/docs/intro)
+
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 **Unit Tests**
-* [Jest](https://jestjs.io/pt-BR/)
+
+- [Jest](https://jestjs.io/pt-BR/)
 
 ## Folder Structure
 
@@ -49,27 +62,47 @@ Template for basic ReactJS applications with TypeScript. Builded with [Vite](htt
 
 ## Names
 
-* **Variables**
-    * camelCase (ex. regexEmail, userId)
+- **Variables**
 
-* **Methods**
-    * camelCase (ex. getItemById, getAllItemsByUser)
+  - camelCase (ex. regexEmail, userId)
 
-* **Folders and Directories**
-    * snake_case (ex. create_user)
+- **Methods**
 
-* **Components**
-    * First letter capitalized (ex. Navbar.tsx, Button.tsx)
+  - camelCase (ex. getItemById, getAllItemsByUser)
 
-* **Tests**
-    * Sufix **```.test.ts```** (ex. button.test.ts)
+- **Folders and Directories**
+
+  - snake_case (ex. create_user)
+
+- **Components**
+
+  - First letter capitalized (ex. Navbar.tsx, Button.tsx)
+
+- **Tests**
+
+  - Sufix **`.test.ts`** (ex. button.test.ts)
+
+## Technologies
+
+This project was created with:
+
+- Node - v18.16
+- Yarn - v1.22.19
+
+## Setup
+
+To run this project, clone this repository and use yarn:
+
+```console
+  cd basic-react-template
+  yarn
+  yarn dev
+```
 
 ## Author
-* [Enzo Sakamoto](https://github.com/enzosakamoto)
+
+- [Enzo Sakamoto](https://github.com/enzosakamoto)
 
 ## Special Thanks
-* [Dev. Community Mauá](https://github.com/Maua-Dev/)
 
-
-
-
+- [Dev. Community Mauá](https://github.com/Maua-Dev/)
