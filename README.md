@@ -3,7 +3,7 @@
 Template for basic ReactJS applications with TypeScript. Builded with [Vite](https://vitejs.dev).
 
 ## Table of contents
-- [Installed Packages](#most-important-installed-packages)
+- [Most Important Installed Packages](#most-important-installed-packages)
 - [Folder Structure](#folder-structure)
 - [Names](#names)
 - [Technologies](#technologies)
