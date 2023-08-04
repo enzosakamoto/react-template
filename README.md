@@ -3,7 +3,7 @@
 Template for basic ReactJS applications with TypeScript. Builded with [Vite](https://vitejs.dev).
 
 ## Table of contents
-- [Installed Packages](#installed-packages)
+- [Installed Packages](#most-important-installed-packages)
 - [Folder Structure](#folder-structure)
 - [Names](#names)
 - [Technologies](#technologies)
@@ -11,7 +11,7 @@ Template for basic ReactJS applications with TypeScript. Builded with [Vite](htt
 - [Author](#author)
 - [Special Thanks](#special-thanks)
 
-## Installed Packages
+## Most Important Installed Packages
 
 **Styles**
 
@@ -47,6 +47,7 @@ Template for basic ReactJS applications with TypeScript. Builded with [Vite](htt
 ├── src
 │   ├── pages
 │   │   └── home
+│   │       └── page.tsx
 │   ├── components
 │   │   ├── Navbar.tsx
 │   │   └── Button.tsx
@@ -58,6 +59,7 @@ Template for basic ReactJS applications with TypeScript. Builded with [Vite](htt
     │   ├── Navbar.test.tsx
     │   └── Button.test.tsx
     └── api
+        └── cep.test.ts
 ```
 
 ## Names
