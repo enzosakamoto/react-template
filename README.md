@@ -1,7 +1,7 @@
 
 # Basic ReactJS Template ⚛️
 
-Template for basic ReactJS applications intended for SPA with TypeScript. Builded with [Vite](https://vitejs.dev).
+Template for basic ReactJS applications with TypeScript. Builded with [Vite](https://vitejs.dev).
 
 ## Useful Packages
 
